@@ -15,6 +15,12 @@ namespace CSPractice
             person.HasPet = true;
 
             person.Greeting();
-        }
+
+            Sujects perf = new Sujects();
+            perf.scores = 85;
+            perf.grade = 'A';
+
+            perf.Performance();
+       }
     }
-}
+} 
